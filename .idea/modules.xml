@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnotationUsing/AnnotationUsing.iml" filepath="$PROJECT_DIR$/AnnotationUsing/AnnotationUsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphProject/GraphProject.iml" filepath="$PROJECT_DIR$/GraphProject/GraphProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingSearchProject/SortingSearchProject.iml" filepath="$PROJECT_DIR$/SortingSearchProject/SortingSearchProject.iml" />
     </modules>
