@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Address/Address.iml" filepath="$PROJECT_DIR$/Address/Address.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnnotationUsing/AnnotationUsing.iml" filepath="$PROJECT_DIR$/AnnotationUsing/AnnotationUsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/GraphProject/GraphProject.iml" filepath="$PROJECT_DIR$/GraphProject/GraphProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Logger/Logger.iml" filepath="$PROJECT_DIR$/Logger/Logger.iml" />
