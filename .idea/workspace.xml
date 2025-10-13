@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Address/Address.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/sql/test.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/Logger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transport/Transport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/sql/sql_hm_28.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +38,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
@@ -152,7 +145,7 @@
       <workItem from="1758115922829" duration="17000" />
       <workItem from="1758199322560" duration="693000" />
       <workItem from="1758573563466" duration="10821000" />
-      <workItem from="1760026989638" duration="1673000" />
+      <workItem from="1760026989638" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1760027166320</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Project DB">
+      <created>1760373172152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760373172152</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +216,7 @@
     <MESSAGE value=" Project Logger" />
     <MESSAGE value=" Project Transport" />
     <MESSAGE value=" Project Address" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Project Address" />
+    <MESSAGE value=" Project DB" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Project DB" />
   </component>
 </project>
