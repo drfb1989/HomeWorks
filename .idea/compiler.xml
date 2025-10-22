@@ -9,12 +9,14 @@
         <module name="library-hw" />
         <module name="password-generator" />
         <module name="password-app" />
+        <module name="hibernate-student-homework" />
         <module name="jdbc-company" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Books" target="17" />
       <module name="JDBC" target="17" />
+      <module name="JPA-Hibernate" target="1.5" />
       <module name="MavenDemo" target="17" />
       <module name="password-generator (1)" target="1.8" />
       <module name="password-generator (2)" target="17" />

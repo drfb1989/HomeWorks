@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/password-app/pom.xml" />
         <option value="$PROJECT_DIR$/Books/pom.xml" />
         <option value="$PROJECT_DIR$/JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/JPA-Hibernate/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JDBC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/main/java/app/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/main/java/app/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/main/java/app/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/main/java/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/java/app/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/java/app/Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/java/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/java/app/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/java/app/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA-Hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +77,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.34367815",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -87,7 +93,7 @@
       <recent name="C:\HomeWorks\Transport\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="jdbc-company" />
@@ -101,9 +107,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
-      <module name="Logger" />
+      <module name="Transport" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -114,9 +120,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
-      <module name="Transport" />
+      <module name="hibernate-student-homework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -164,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Gradle.Tests in 'Books.test'" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +192,7 @@
       <workItem from="1758573563466" duration="10821000" />
       <workItem from="1760026989638" duration="2873000" />
       <workItem from="1761143034320" duration="1745000" />
-      <workItem from="1761145204651" duration="2488000" />
+      <workItem from="1761145204651" duration="4848000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -258,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761145731990</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" Project Company">
+      <created>1761148709683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761148709683</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +286,7 @@
     <MESSAGE value=" Project Address" />
     <MESSAGE value=" Project DB" />
     <MESSAGE value=" Project Books and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Project Books and tests" />
+    <MESSAGE value=" Project Company" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Project Company" />
   </component>
 </project>
