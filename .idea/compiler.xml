@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="library-hw" />
         <module name="password-generator" />
         <module name="password-app" />
         <module name="hibernate-student-homework" />
-        <module name="jdbc-company" />
         <module name="coffee-order-board" />
+        <module name="library-hw" />
+        <module name="socket-chat" />
+        <module name="jdbc-company" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
