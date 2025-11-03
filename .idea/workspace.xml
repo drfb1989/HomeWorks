@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/socket-chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-chat/src/main/java/network/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-chat/src/main/java/network/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-chat/src/main/java/network/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <workItem from="1760026989638" duration="2873000" />
       <workItem from="1761143034320" duration="1745000" />
       <workItem from="1761145204651" duration="5065000" />
-      <workItem from="1761847396589" duration="1903000" />
+      <workItem from="1761847396589" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762190009236</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" Project socket chat">
+      <created>1762190530282</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762190530282</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +293,8 @@
     <MESSAGE value=" Project Company" />
     <MESSAGE value=" Project JPA" />
     <MESSAGE value=" Project coffee-order" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Project coffee-order" />
+    <MESSAGE value=" Project socket chat" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Project socket chat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
