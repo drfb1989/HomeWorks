@@ -11,6 +11,7 @@
         <module name="password-app" />
         <module name="hibernate-student-homework" />
         <module name="jdbc-company" />
+        <module name="coffee-order-board" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
