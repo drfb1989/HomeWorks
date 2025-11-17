@@ -3,18 +3,16 @@ package coffee.order;
 import java.util.Objects;
 
 public class Order {
-    private final int number;
-    private final String name;
+    private int number;
+    private String name;
 
     public Order(int number, String name) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("Name must not be blank");
-        }
-        if (number <= 0) {
-            throw new IllegalArgumentException("Order number must be positive");
-        }
         this.number = number;
         this.name = name;
+    }
+
+
+    public Order() {
     }
 
     public int getNumber() {
@@ -35,11 +33,12 @@ public class Order {
         if (this == o) return true;
         if (!(o instanceof Order)) return false;
         Order order = (Order) o;
-        return number == order.number;
+        return number == order.number &&
+                Objects.equals(name, order.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(number);
+        return Objects.hash(number, name);
     }
 }

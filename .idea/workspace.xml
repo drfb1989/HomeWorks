@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/test/java/orders/servlet/OrderServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffee-order-board/src/main/java/coffee/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffee-order-board/src/main/java/coffee/order/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +97,7 @@
       <recent name="C:\HomeWorks\Transport\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="JUnit.OrderServletTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.Client" />
       <module name="socket-chat" />
@@ -111,28 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Main" />
-      <module name="jdbc-company" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Main" />
-      <module name="hibernate-student-homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,13 +144,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orders-servlet-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orders.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orders.servlet" />
+      <option name="MAIN_CLASS_NAME" value="orders.servlet.OrderServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderServletTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +184,8 @@
       <workItem from="1760026989638" duration="2873000" />
       <workItem from="1761143034320" duration="1745000" />
       <workItem from="1761145204651" duration="5065000" />
-      <workItem from="1761847396589" duration="2966000" />
+      <workItem from="1761847396589" duration="5135000" />
+      <workItem from="1763398810968" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -275,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762190530282</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=" Project socket chat">
+      <created>1762191821085</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762191821085</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
