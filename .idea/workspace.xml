@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/main/java/orders/servlet/OrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-servlet-app/src/test/java/orders/servlet/OrderServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-order-board/src/main/java/coffee/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffee-order-board/src/main/java/coffee/order/Order.java" afterDir="false" />
-    </list>
+    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +169,7 @@
       <workItem from="1761143034320" duration="1745000" />
       <workItem from="1761145204651" duration="5065000" />
       <workItem from="1761847396589" duration="5135000" />
-      <workItem from="1763398810968" duration="4591000" />
+      <workItem from="1763398810968" duration="5011000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -292,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762191821085</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" Project OrderServlet app">
+      <created>1763404094516</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1763404094516</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +302,8 @@
     <MESSAGE value=" Project JPA" />
     <MESSAGE value=" Project coffee-order" />
     <MESSAGE value=" Project socket chat" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Project socket chat" />
+    <MESSAGE value=" Project OrderServlet app" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Project OrderServlet app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
