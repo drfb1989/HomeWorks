@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/socket-chat/pom.xml" />
         <option value="$PROJECT_DIR$/calculator/pom.xml" />
         <option value="$PROJECT_DIR$/orders-servlet-app/pom.xml" />
+        <option value="$PROJECT_DIR$/cart-app/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

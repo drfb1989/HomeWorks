@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="" />
+    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment=" Project OrderServlet app">
+      <change afterPath="$PROJECT_DIR$/cart-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-app/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-app/src/main/java/shop/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-app/src/main/java/shop/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-app/src/main/java/shop/repo/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-app/src/main/java/shop/service/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +61,6 @@
   <component name="ProjectId" id="32YSowMiMx0AgV0ai470tSYeTq6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -81,13 +91,13 @@
       <recent name="C:\HomeWorks\Transport\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServletTest">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.Client" />
-      <module name="socket-chat" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shop.Application" />
+      <module name="cart-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.*" />
+          <option name="PATTERN" value="shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.order.Demo" />
-      <module name="coffee-order-board" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.Client" />
+      <module name="socket-chat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.order.*" />
+          <option name="PATTERN" value="network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.OrderServletTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +179,7 @@
       <workItem from="1761143034320" duration="1745000" />
       <workItem from="1761145204651" duration="5065000" />
       <workItem from="1761847396589" duration="5135000" />
-      <workItem from="1763398810968" duration="5011000" />
+      <workItem from="1763398810968" duration="7013000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -283,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1763404094516</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" Project OrderServlet app">
+      <created>1763404583205</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1763404583205</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

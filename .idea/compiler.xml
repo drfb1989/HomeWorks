@@ -10,6 +10,7 @@
         <module name="password-generator" />
         <module name="password-app" />
         <module name="hibernate-student-homework" />
+        <module name="cart-app" />
         <module name="coffee-order-board" />
         <module name="orders-servlet-app" />
         <module name="library-hw" />
