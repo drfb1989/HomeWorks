@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment=" Project cart-app">
-      <change afterPath="$PROJECT_DIR$/order-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/app/OrdersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/app/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/app/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/app/order/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/controller/PingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Books/pom.xml" afterDir="false" />
+    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/order-app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-app/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +180,7 @@
       <workItem from="1761145204651" duration="5065000" />
       <workItem from="1761847396589" duration="5135000" />
       <workItem from="1763398810968" duration="9021000" />
-      <workItem from="1764158013127" duration="1311000" />
+      <workItem from="1764158013127" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -324,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764158536867</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=" Project order-app">
+      <created>1764159365872</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764159365872</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +344,8 @@
     <MESSAGE value=" Project OrderServlet app" />
     <MESSAGE value=" Project cart-app" />
     <MESSAGE value=" Project Customer" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Project Customer" />
+    <MESSAGE value=" Project order-app" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Project order-app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

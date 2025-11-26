@@ -1,4 +1,4 @@
-package controller;
+package app.controller;
 
 import app.order.Order;
 import app.order.OrderRepository;
@@ -30,8 +30,30 @@ public class OrderController {
     }
 
     @PostMapping
-    public ResponseEntity<Order> add(@RequestBody Order order) {
-        Order saved = orderRepository.add(order);
+    public ResponseEntity<Order> create(@RequestBody Order order) {
+        order.setId(null);
+        Order saved = orderRepository.save(order);
         return ResponseEntity.ok(saved);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Order> update(@PathVariable Long id, @RequestBody Order updatedOrder) {
+        return orderRepository.findById(id)
+                .map(existing -> {
+                    existing.setProducts(updatedOrder.getProducts());
+                    existing.setCreatedAt(updatedOrder.getCreatedAt());
+                    Order saved = orderRepository.save(existing);
+                    return ResponseEntity.ok(saved);
+                })
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> delete(@PathVariable Long id) {
+        if (orderRepository.existsById(id)) {
+            orderRepository.deleteById(id);
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
     }
 }
