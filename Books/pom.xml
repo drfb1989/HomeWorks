@@ -15,6 +15,7 @@
     <modules>
         <module>../Customer</module>
         <module>../order-app</module>
+        <module>../registration.registration</module>
     </modules>
 
     <properties>

@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/user/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/user/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-app/src/main/java/user/UserService.java" afterDir="false" />
+    <list default="true" id="2488ed05-1c83-4cb5-86d1-614ce2512261" name="Changes" comment=" Project order-app">
+      <change afterPath="$PROJECT_DIR$/registration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/dto/RegistrationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/registration/RegistrationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Books/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +57,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="HTML File" />
         <option value="Interface" />
       </list>
     </option>
@@ -62,6 +75,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -87,6 +101,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HomeWorks\Books\src\test\java\app" />
       <recent name="C:\HomeWorks\Transport\src" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="service" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OrdersApplication">
@@ -185,7 +202,7 @@
       <workItem from="1761145204651" duration="5065000" />
       <workItem from="1761847396589" duration="5135000" />
       <workItem from="1763398810968" duration="9021000" />
-      <workItem from="1764158013127" duration="3028000" />
+      <workItem from="1764158013127" duration="7583000" />
     </task>
     <task id="LOCAL-00001" summary="SortingSearchProject developed">
       <created>1757596473421</created>
@@ -334,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764160106214</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" Project order-app">
+      <created>1764601653752</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1764601653752</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

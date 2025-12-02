@@ -25,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/password-app/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/password-generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/password-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registration/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socket-chat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/socket-chat/src/main/resources" charset="UTF-8" />
   </component>
